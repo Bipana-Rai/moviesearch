@@ -1,0 +1,144 @@
+body{
+    background-color: rgb(28, 39, 54);
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+/* navbar css */
+.nav{
+    height: 70px;
+    width: 100vw;
+    position: fixed;
+    user-select: none;
+    color: rgb(43, 134, 150);
+    background-color: rgb(5, 7, 25);
+    top: 0;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar{
+    display: flex;
+    margin-left: 43%;
+
+}
+input {
+    pointer-events: auto;
+    height: 40px;
+    width: 220px;
+  }
+  .btn{
+    height: 40px;
+  }
+  
+
+/* movieoutline css */
+.container{
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 8px;
+    z-index: -1;
+    margin-top: 100px;
+}
+.newcontainer{
+  
+    height:400px ;
+    width: 100vw;
+    display: flex;
+    white-space: wrap;
+    overflow-x: auto;
+    gap: 10px;
+    margin-top: 20px;
+    scrollbar-width: none;
+    
+}
+.sub-container{
+    flex: 0 0 210px; 
+    height: 300px;
+    width: 210px;
+    border: 1px solid;
+     box-shadow: 2px 0px 5px 3px rgb(21, 21, 62);
+     cursor: pointer; 
+}
+
+.img{
+    height: 80%;
+    width: 100%;
+    border: 1px solid;
+}
+.poster{
+
+    height: 100%;
+    width: 100%;
+}
+.detail{
+    width: 100%;
+    height: 20%;
+    color: #fff;
+    line-height: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(15, 15, 48);
+}
+/* movieinside css */
+.newnav{
+    position: relative;
+}
+.outline{
+    height: 500px;
+    width: 900px;
+    margin-top:70px;
+    position: relative;
+    color: #fff;
+    z-index: -1;
+    margin-left: 300px;
+
+}
+.trailer{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.moviesdata{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    margin-top: 200px;
+    display: flex;
+}
+.movieimage{
+height:300px ;
+width: 190px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.description{
+    height: 260px;
+    width: 720px;
+    margin-top: 40px;
+
+    
+}
+.reviews{
+    height: 33%;
+    width: 100%;
+    line-height: 8px;
+    background-color: rgba(0, 0, 0, 0.864);
+    
+    
+
+}
+.discp{
+    height: 67%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.864);
+    line-height: 10px;
+}
+.pl{
+    line-height: 20px;
+}
